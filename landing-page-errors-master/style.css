@@ -1,0 +1,125 @@
+body{
+    background: url('assets/background.png');
+    background-repeat: no-repeat;
+    background-position:100% 0%;
+    background-origin: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+    
+}
+.menu{
+    display: flex;
+    width: 245px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 24px;
+    color: #eb423f;
+    font-size: 14px;
+}
+.logo span{
+    font-weight: 900;
+    line-height: 38px;
+    color: #eb423f;
+    font-size: 26px;
+}
+button{
+    background-color: #eb423f;
+    font-weight: 500;
+    line-height: 18px;
+    color: #fff;
+    font-size: 12px;
+    border: 1px solid #000;
+    height: 36px;
+    width: 189px;
+    cursor: pointer;
+}
+
+.content {
+    margin-top: 240px;
+    margin-bottom: 340px;
+    
+    
+}
+
+#home {
+    
+    width: 540px;
+    height: 421px;
+    margin-left: 88px;
+}
+#home h2{
+    font-weight: 500;
+    line-height: 66px;
+    color:#091133;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+#home p{
+    font-weight: 400;
+    line-height: 30px;
+    color:#eb423f;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#home a{
+    display: inline-block;
+    width: 189px;
+    margin-left:20px;
+    border: 2px solid #091133;
+    font-weight: 500;
+    line-height: 26px;
+    color:#091133;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#about{
+    background-color: #F78282; 
+    padding: 68px 150px 20px 150px;
+    margin-top: 450px;
+    
+}
+
+.footer a{
+    color: #fff;
+}
+.footer{
+    padding-left: 0;
+}
+.about_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about_footer img{
+    height: 16px;
+}
+hr{
+    margin-top: 50px;
+}
+.about_footer span{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 24px;
+}
+.about_footer button{
+    width: 109px;
+    height: 20px;
+    
+}
